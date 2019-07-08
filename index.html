@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Welcome</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- This will eventually be replaced by dynamically generated time from js -->
+    <time id="time">12:17:10 PM</time>
+
+    <h1>
+        <span id="greeting">Good Morning</span>
+        <span id="name" contenteditable="true">{{ Name }}</span>
+    </h1>
+
+    <h2>What's today's goal?</h2>
+    <h2 id="focus" contenteditable="true">{{ editable focus }}</h2>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
